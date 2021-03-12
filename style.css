@@ -710,6 +710,14 @@ h2 {
     line-height: 1.4em;
 }
 
+.old_h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;  
+}
+
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -737,7 +745,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .portfolio-thumb {
@@ -1069,6 +1077,7 @@ h4 {
 font-size: x-large;
 display: flex;
 justify-content: center;
+margin-top: 2rem;
 }
 
 @media screen and (max-width:980px){
@@ -1088,7 +1097,11 @@ justify-content: center;
 
 }
 
-
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 

@@ -1094,10 +1094,12 @@ color: #333333!important;
 
     .ohmyfood img{
         width: 200px;
+        height: auto;
     }
 
     .reservia img{
         width: 200px;
+        height: auto;
     }
 
 }

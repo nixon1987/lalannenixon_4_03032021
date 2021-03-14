@@ -28,7 +28,9 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -324,16 +326,19 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    list-style-type: none;
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    
 }
 
 .nav > li a:hover,
@@ -370,7 +375,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 150px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -1114,6 +1119,20 @@ color: #333333!important;
     color: #333333!important; 
 }
 
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.text__contact{
+    color: #333333!important;
+}
+
+a{
+    text-decoration: none;
+}
 
 
 
